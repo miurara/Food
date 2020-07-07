@@ -860,15 +860,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .promotion__timer .timer__block {
+  margin: 0 10px;
   width: 102px;
   height: 120px;
   background: #fff;
@@ -1169,10 +1170,6 @@ body {
   .promotion__timer .timer {
     padding: 0;
     margin-top: 15px;
-  }
-
-  .promotion__timer .timer__block {
-    margin: 0 10px;
   }
 }
 
